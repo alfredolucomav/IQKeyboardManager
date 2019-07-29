@@ -129,7 +129,7 @@
     if (_doneBarButton == nil)
     {
         _doneBarButton = [[IQBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:nil action:nil];
-        _doneBarButton.accessibilityLabel = @"Done";
+        _doneBarButton.accessibilityLabel = @"Ok";
     }
     
     return _doneBarButton;
