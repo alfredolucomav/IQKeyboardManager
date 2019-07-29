@@ -425,7 +425,7 @@
         
         if (done.isSystemItem == NO && (rightBarButtonConfiguration.image || rightBarButtonConfiguration.title))
         {
-            done.title = rightBarButtonConfiguration.title;
+            done.title = @"Ok";
             done.image = rightBarButtonConfiguration.image;
             done.target = target;
             done.action = rightBarButtonConfiguration.action;
