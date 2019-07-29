@@ -129,6 +129,7 @@
     if (_doneBarButton == nil)
     {
         _doneBarButton = [[IQBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:nil action:nil];
+        [_doneBarButton setTitle:@"Ok"];
         _doneBarButton.accessibilityLabel = @"Ok";
     }
     
